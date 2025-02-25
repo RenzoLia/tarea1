@@ -1,0 +1,66 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.contenedor_principal
+{
+    display: flex;
+}
+.contenedor_principal .barra_lateral .nav
+{
+    color: white;
+    padding: 25px;
+    height: 100vh;
+    position: fixed;
+    width: 100px;
+    background-color: #333;
+}
+.contenedor_principal .barra_lateral .nav a
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 25px 0;
+}
+.contenedor_principal .barra_lateral .nav a:hover
+{
+    color: blueviolet;
+}
+.contenedor_principal .contenedor .encabezado
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+.contenedor_principal .contenedor .contenidos
+{
+    display: flex;
+    background-color: bisque;
+    margin-left: 150px;
+    padding: 50px;
+}
+.contenedor_principal .contenedor .contenidos .contenido_1
+{
+    padding-right: 50px;
+
+}
+.contenedor_principal .contenedor .contenidos .contenido_1 h2
+{
+    padding: 25px;
+    text-align: center;
+}
+.contenedor_principal .contenedor .contenidos .contenido-2 h2
+{
+    padding: 25px;
+    text-align: center;
+}
+.contenedor_principal .contenedor .pie_pagina
+{
+    margin-left: 150px;
+    text-align: center;
+    color:white;
+    background-color: #333;
+    padding: 25px;
+}
